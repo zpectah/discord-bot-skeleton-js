@@ -1,0 +1,17 @@
+{
+  "name": "discord-bot-skeleton-js",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "main": "./index.js",
+  "scripts": {
+    "start": "node ./index.js"
+  },
+  "devDependencies": {
+    "eslint": "^8.48.0",
+    "prettier": "^3.0.2"
+  },
+  "dependencies": {
+    "discord.js": "^14.13.0"
+  }
+}
