@@ -15,7 +15,10 @@
 
 ## Scripts
 
-* `% yarn start` - runs bot with Node.js
+- `% yarn start` - runs bot with Node.js
+- `% yarn lint` - check code with ESLint
+- `% yarn format:check` - check code format
+- `% yarn format:fix` - fix code format
 
 ## Links
 

@@ -1,14 +1,21 @@
 {
   "name": "discord-bot-skeleton-js",
+  "author": "Tomas Sychra <sychrat@gmail.com>",
+  "license": "MIT",
   "private": true,
+  "repository": "https://github.com/zpectah/discord-bot-skeleton-js.git",
   "version": "0.0.0",
   "type": "module",
   "main": "./index.js",
   "scripts": {
-    "start": "node ./index.js"
+    "start": "node ./index.js",
+    "lint": "eslint .",
+    "format:check": "prettier . --check",
+    "format:fix": "prettier . --write"
   },
   "devDependencies": {
     "eslint": "^8.48.0",
+    "eslint-plugin-prettier": "^5.0.0",
     "prettier": "^3.0.2"
   },
   "dependencies": {

@@ -14,8 +14,4 @@ const onMessageDelete = async (message) => {
   console.log('onMessageCreate', message);
 };
 
-export {
-  onMessageCreate,
-  onMessageUpdate,
-  onMessageDelete,
-};
+export { onMessageCreate, onMessageUpdate, onMessageDelete };

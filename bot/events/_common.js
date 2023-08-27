@@ -10,8 +10,4 @@ const onLoginError = (reason) => {
   console.log(`onLoginError ${reason}`);
 };
 
-export {
-  onReady,
-  onLoginSuccess,
-  onLoginError,
-};
+export { onReady, onLoginSuccess, onLoginError };
